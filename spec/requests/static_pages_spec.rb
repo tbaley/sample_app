@@ -7,8 +7,6 @@ describe "Static pages" do
       visit '/static_pages/home'
       page.should have_content('Sample App')
     end
-
-   
   end
 
   describe "Help page" do
@@ -17,6 +15,13 @@ describe "Static pages" do
       page.should have_content('Help')
     end
   end
+
+  describe "junk" do
+    it "Mango Chutney" do
+      pending 'ok already, here' 
+    end
+  end
+
 
   describe "About page" do
     it "should have the content 'About Us'" do
